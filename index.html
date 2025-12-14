@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+=======
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    </ul>
+                </div>
+>>>>>>> 7523a6b0ffd1296ee2f740c0963bbd9533cc8f93
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<<<<<<< HEAD
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Portfolio</title>
+
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "system-ui", "sans-serif"],
+            display: ["Space Grotesk", "system-ui", "sans-serif"],
+          },
+          colors: {
+            brand: {
+              500: "#7C3AED",
+              600: "#6D28D9",
+            },
+          },
+          boxShadow: {
+            soft: "0 10px 30px rgba(0,0,0,0.08)",
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+
+<body class="font-sans bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+=======
+        <main class="l-main" style="margin-top: 50px;">
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+>>>>>>> 7523a6b0ffd1296ee2f740c0963bbd9533cc8f93
+
+  <!-- Top Bar -->
+  <header class="sticky top-0 z-50 border-b border-slate-200/70 dark:border-slate-800 bg-white/70 dark:bg-slate-950/70 backdrop-blur">
+    <nav class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="font-display text-lg tracking-tight">
+        <span class="text-brand-500"></span> Portfolio
+      </a>
+
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a class="hover:text-brand-500 transition" href="#work">Work</a>
+        <a class="hover:text-brand-500 transition" href="#skills">Skills</a>
+        <a class="hover:text-brand-500 transition" href="#about">About</a>
+
+        <button id="themeToggle"
+          class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-brand-500/60 transition"
+          aria-label="Toggle theme">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+
+      <button id="mobileBtn"
+        class="md:hidden px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-800"
+        aria-label="Open menu">
+        ☰
+      </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden border-t border-slate-200 dark:border-slate-800">
+      <div class="mx-auto max-w-6xl px-4 py-4 flex flex-col gap-3 text-sm">
+        <a class="hover:text-brand-500 transition" href="#work">Work</a>
+        <a class="hover:text-brand-500 transition" href="#skills">Skills</a>
+        <a class="hover:text-brand-500 transition" href="#about">About</a>
+
+        <div class="flex gap-3 pt-2">
+          <a href="assets/resume.pdf" download
+            class="flex-1 text-center px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-800">
+            Download Resume
+          </a>
+          <button id="themeToggleMobile"
+            class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-800"
+            aria-label="Toggle theme">
+            <span id="themeIconMobile">🌙</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          src="assets/img/work-img/PURPLE-GOLD ELIMS & WF ECERT 2025.png"
+          alt="Featured work background"
+          class="h-full w-full object-cover opacity-25 dark:opacity-20"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-white/70 via-white/85 to-white dark:from-slate-950/40 dark:via-slate-950/80 dark:to-slate-950"></div>
+      </div>
+
+      <div class="relative mx-auto max-w-6xl px-4 py-16 md:py-24">
+        <div class="max-w-2xl">
+          <p class="inline-flex items-center gap-2 text-xs font-medium tracking-wide uppercase text-brand-500">
+            UI/UX • Graphic Design
+          </p>
+
+          <h1 class="mt-4 font-display text-4xl md:text-6xl leading-[1.05] tracking-tight">
+            I design interfaces and visuals that look sharp — and work even sharper.
+          </h1>
+
+          <p class="mt-5 text-base md:text-lg text-slate-700 dark:text-slate-300">
+            UI/UX and Graphic Designer specializing in clean systems, thoughtful user flows, and high-impact visuals.
+            Click any work to view it fullscreen instantly.
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#work"
+              class="px-5 py-3 rounded-2xl bg-brand-500 text-white hover:bg-brand-600 transition shadow-soft">
+              View Work
+            </a>
+          </div>
+
+          <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+            <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+              <p class="text-slate-500 dark:text-slate-400">Focus</p>
+              <p class="mt-1 font-semibold">Usability + polish</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+              <p class="text-slate-500 dark:text-slate-400">Deliverables</p>
+              <p class="mt-1 font-semibold">Figma → mockups</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+              <p class="text-slate-500 dark:text-slate-400">Strength</p>
+              <p class="mt-1 font-semibold">Systems thinking</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+              <p class="text-slate-500 dark:text-slate-400">Style</p>
+              <p class="mt-1 font-semibold">Modern & clean</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work (Minimal + Fullscreen on click) -->
+    <section id="work" class="mx-auto max-w-6xl px-4 py-14 md:py-20">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+        <div>
+          <h2 class="font-display text-3xl md:text-4xl tracking-tight">Selected Work</h2>
+          <p class="mt-2 text-slate-600 dark:text-slate-300 max-w-2xl">
+            Just the visuals. Filter by category. Click to view fullscreen.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <button class="filterBtn px-4 py-2 rounded-2xl border border-slate-200 dark:border-slate-800 text-sm hover:border-brand-500/60 transition"
+            data-filter="all">All</button>
+          <button class="filterBtn px-4 py-2 rounded-2xl border border-slate-200 dark:border-slate-800 text-sm hover:border-brand-500/60 transition"
+            data-filter="uiux">UI/UX</button>
+          <button class="filterBtn px-4 py-2 rounded-2xl border border-slate-200 dark:border-slate-800 text-sm hover:border-brand-500/60 transition"
+            data-filter="graphic">Graphic</button>
+          <button class="filterBtn px-4 py-2 rounded-2xl border border-slate-200 dark:border-slate-800 text-sm hover:border-brand-500/60 transition"
+            data-filter="branding">Esports</button>
+        </div>
+      </div>
+
+      <div class="mt-10 grid grid-cols-2 md:grid-cols-3 gap-4">
+        <!-- UI/UX -->
+        <article class="projectCard" data-category="uiux"
+          data-title="UI Concept 01"
+          data-images="assets/img/work-img/first UI.png,assets/img/work-img/second UI.png">
+          <button class="group w-full text-left">
+            <div class="relative rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-soft">
+              <div class="aspect-[4/3] overflow-hidden">
+                <img src="assets/img/work-img/first UI.png" alt="UI Concept 01"
+                  class="h-full w-full object-cover group-hover:scale-[1.03] transition duration-300">
+              </div>
+              <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-black/35"></div>
+              <div class="absolute left-3 bottom-3 right-3 opacity-0 group-hover:opacity-100 transition">
+                <p class="text-white text-sm font-medium">UI Concept 01</p>
+                <p class="text-white/80 text-xs">UI/UX</p>
+              </div>
+            </div>
+          </button>
+        </article>
+
+        <article class="projectCard" data-category="uiux"
+          data-title="Landing Page"
+          data-images="assets/img/work-img/LANDING PAGE.png">
+          <button class="group w-full text-left">
+            <div class="relative rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-soft">
+              <div class="aspect-[4/3] overflow-hidden">
+                <img src="assets/img/work-img/LANDING PAGE.png" alt="Landing Page"
+                  class="h-full w-full object-cover group-hover:scale-[1.03] transition duration-300">
+              </div>
+              <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-black/35"></div>
+              <div class="absolute left-3 bottom-3 right-3 opacity-0 group-hover:opacity-100 transition">
+                <p class="text-white text-sm font-medium">Landing Page</p>
+                <p class="text-white/80 text-xs">UI/UX</p>
+              </div>
+            </div>
+          </button>
+        </article>
+
+        <article class="projectCard" data-category="uiux"
+          data-title="Admin Dashboard"
+          data-images="assets/img/work-img/Official Dashboard (Admin).png">
+          <button class="group w-full text-left">
+            <div class="relative rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-soft">
+              <div class="aspect-[4/3] overflow-hidden">
+                <img src="assets/img/work-img/Official Dashboard (Admin).png" alt="Admin Dashboard"
+                  class="h-full w-full object-cover group-hover:scale-[1.03] transition duration-300">
+              </div>
+              <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-black/35"></div>
+              <div class="absolute left-3 bottom-3 right-3 opacity-0 group-hover:opacity-100 transition">
+                <p class="text-white text-sm font-medium">Admin Dashboard</p>
+                <p class="text-white/80 text-xs">UI/UX</p>
+              </div>
+            </div>
+          </button>
+        </article>
+
+        <!-- Graphic -->
+        <article class="projectCard" data-category="graphic"
+          data-title="Academic Posters"
+          data-images="assets/img/posters/Frame 10.png,assets/img/posters/Frame 7.png,assets/img/posters/Frame 5.png,assets/img/posters/Frame 8.png,assets/img/posters/Frame 9.png,assets/img/posters/Frame 11.png">
+          <button class="group w-full text-left">
+            <div class="relative rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-soft">
+              <div class="aspect-[4/3] overflow-hidden">
+                <img src="assets/img/posters/Frame 10.png" alt="Academic Posters"
+                  class="h-full w-full object-cover group-hover:scale-[1.03] transition duration-300">
+              </div>
+              <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-black/35"></div>
+              <div class="absolute left-3 bottom-3 right-3 opacity-0 group-hover:opacity-100 transition">
+                <p class="text-white text-sm font-medium">Academic Posters</p>
+                <p class="text-white/80 text-xs">Graphic</p>
+              </div>
+            </div>
+          </button>
+        </article>
+
+        <!-- Branding -->
+        <article class="projectCard" data-category="branding"
+          data-title="PUBG Tournament Visuals"
+          data-images="assets/img/work-img/fragger.png,assets/img/work-img/NOTICE.png,assets/img/work-img/SCHEDULE.png,assets/img/work-img/PURPLE-GOLD ELIMS & WF ECERT 2025.png">
+          <button class="group w-full text-left">
+            <div class="relative rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-soft">
+              <div class="aspect-[4/3] overflow-hidden">
+                <img src="assets/img/work-img/fragger.png" alt="PUBG Tournament Visuals"
+                  class="h-full w-full object-cover group-hover:scale-[1.03] transition duration-300">
+              </div>
+              <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-black/35"></div>
+              <div class="absolute left-3 bottom-3 right-3 opacity-0 group-hover:opacity-100 transition">
+                <p class="text-white text-sm font-medium">PUBG Tournament Visuals</p>
+                <p class="text-white/80 text-xs">Branding</p>
+              </div>
+            </div>
+          </button>
+        </article>
+
+        <article class="projectCard" data-category="branding"
+            data-title="Uniform & Apparel Design System"
+            data-images="
+                assets/img/apparel/gryf.jpg,,
+                assets/img/apparel/rav.jpg,
+                assets/img/apparel/slyth.jpg,
+                assets/img/apparel/huff.jpg,
+                assets/img/apparel/fac1.jpg,
+                assets/img/apparel/fac2.jpg,
+                assets/img/apparel/fac3.jpg,
+            ">
+            <button class="group w-full text-left">
+                <div class="relative rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-soft">
+                
+                <!-- Cover image -->
+                <div class="aspect-[4/3] overflow-hidden">
+                    <img src="assets/img/apparel/gryf.jpg"
+                    alt="Uniform & Apparel Design"
+                    class="h-full w-full object-cover group-hover:scale-[1.03] transition duration-300">
+                </div>
+
+                <!-- Minimal hover info -->
+                <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-black/35"></div>
+                <div class="absolute left-3 bottom-3 right-3 opacity-0 group-hover:opacity-100 transition">
+                    <p class="text-white text-sm font-medium">Uniform & Apparel Design</p>
+                    <p class="text-white/80 text-xs">Branding • Apparel</p>
+                </div>
+
+                </div>
+            </button>
+            </article>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="mx-auto max-w-6xl px-4 py-14 md:py-20">
+      <div class="grid lg:grid-cols-2 gap-8 items-start">
+        <div>
+          <h2 class="font-display text-3xl md:text-4xl tracking-tight">Skills, visualized</h2>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">
+            A quick map of what I do — tools, strengths, and how I think through problems.
+          </p>
+
+          <div class="mt-8 grid sm:grid-cols-2 gap-4">
+            <div class="rounded-3xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-900 shadow-soft">
+              <h3 class="font-display text-lg">UI Design</h3>
+              <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Design systems, components, responsive layouts.</p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">Figma</span>
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">Prototyping</span>
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">Auto layout</span>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-900 shadow-soft">
+              <h3 class="font-display text-lg">UX Research</h3>
+              <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">User flows, personas, wireframes, iteration.</p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">User flows</span>
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">Wireframes</span>
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">Usability notes</span>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-900 shadow-soft">
+              <h3 class="font-display text-lg">Graphic Design</h3>
+              <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Brand visuals, posters, social kits, illustration.</p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">Branding</span>
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">Print-ready</span>
+                <span class="px-2 py-1 rounded-full border border-slate-200 dark:border-slate-800">Layouts</span>
+              </div>
+            </div>
+
+            <div class="rounded-3xl border border-slate-200 dark:border-slate-800 p-5 bg-white dark:bg-slate-900 shadow-soft">
+              <h3 class="font-display text-lg">Tools</h3>
+              <div class="mt-4 space-y-3">
+                <div>
+                  <div class="flex items-center justify-between text-sm">
+                    <span class="flex items-center gap-2">
+                      <img src="./assets/img/figma.png" alt="Figma" class="h-5 w-5">
+                      Figma
+                    </span>
+                    <span class="text-slate-500">85%</span>
+                  </div>
+                  <div class="mt-2 h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                    <div class="h-full w-[85%] bg-brand-500 rounded-full"></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="flex items-center justify-between text-sm">
+                    <span class="flex items-center gap-2">
+                      <img src="./assets/img/Canva.png" alt="Canva" class="h-5 w-5">
+                      Canva
+                    </span>
+                    <span class="text-slate-500">95%</span>
+                  </div>
+                  <div class="mt-2 h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                    <div class="h-full w-[95%] bg-brand-500 rounded-full"></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="flex items-center justify-between text-sm">
+                    <span class="flex items-center gap-2">
+                      <img src="./assets/img/photoshop.png" alt="Photoshop" class="h-5 w-5">
+                      Photoshop
+                    </span>
+                    <span class="text-slate-500">75%</span>
+                  </div>
+                  <div class="mt-2 h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+                    <div class="h-full w-[75%] bg-brand-500 rounded-full"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-soft bg-white dark:bg-slate-900">
+          <img src="assets/img/Skill.jpg" alt="Skills visual" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mx-auto max-w-6xl px-4 py-14 md:py-20">
+      <div class="rounded-3xl border border-slate-200 dark:border-slate-800 p-8 md:p-10 bg-white dark:bg-slate-900 shadow-soft">
+        <h2 class="font-display text-3xl md:text-4xl tracking-tight">About me</h2>
+        <p class="mt-4 text-slate-600 dark:text-slate-300 max-w-3xl">
+          I’m a UI/UX and Graphic Designer who cares about outcomes. My design philosophy is simple:
+          <span class="text-slate-900 dark:text-slate-100 font-medium">make it beautiful, make it usable, make it consistent.</span>
+          I enjoy turning messy ideas into clear systems — from user flows and wireframes to polished visual design.
+        </p>
+
+        <div class="mt-8 grid md:grid-cols-3 gap-4 text-sm">
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+            <p class="text-slate-500">What I optimize</p>
+            <p class="mt-1 font-semibold">Clarity, speed, and trust</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+            <p class="text-slate-500">How I work</p>
+            <p class="mt-1 font-semibold">Iterative + feedback-driven</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
+            <p class="text-slate-500">What you get</p>
+            <p class="mt-1 font-semibold">Process + clean deliverables</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Fullscreen Gallery Lightbox (BIG image immediately, minimal details) -->
+  <div id="galleryModal" class="fixed inset-0 z-[70] hidden">
+    <div class="absolute inset-0 bg-black/80" data-gclose="true"></div>
+
+    <div class="absolute inset-0 flex flex-col">
+      <div class="flex items-center justify-between px-4 py-3 text-white/90">
+        <div class="min-w-0">
+          <p id="gTitle" class="font-display text-base md:text-lg truncate">Project</p>
+          <p id="gMeta" class="text-xs text-white/70">Category</p>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button id="gZoomOut" class="px-3 py-2 rounded-xl bg-white/10 hover:bg-white/15 transition" aria-label="Zoom out">−</button>
+          <button id="gZoomIn" class="px-3 py-2 rounded-xl bg-white/10 hover:bg-white/15 transition" aria-label="Zoom in">+</button>
+          <button id="gClose" class="px-3 py-2 rounded-xl bg-white/10 hover:bg-white/15 transition" aria-label="Close">✕</button>
+        </div>
+      </div>
+
+      <div class="relative flex-1 flex items-center justify-center px-4 pb-4">
+        <button id="gPrev"
+          class="absolute left-3 md:left-6 top-1/2 -translate-y-1/2 px-3 py-2 rounded-2xl bg-white/10 hover:bg-white/15 transition text-white"
+          aria-label="Previous">‹</button>
+
+        <div class="max-w-6xl w-full h-full flex items-center justify-center overflow-hidden">
+          <img id="gImg" src="" alt="Expanded work"
+            class="max-h-[82vh] max-w-full object-contain transition-transform duration-200 select-none"
+            draggable="false">
+        </div>
+
+        <button id="gNext"
+          class="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 px-3 py-2 rounded-2xl bg-white/10 hover:bg-white/15 transition text-white"
+          aria-label="Next">›</button>
+      </div>
+
+      <div class="px-4 pb-4">
+        <div id="gThumbs" class="flex gap-2 overflow-x-auto pb-1"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 dark:border-slate-800">
+    <div class="mx-auto max-w-6xl px-4 py-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-sm">
+      <p class="text-slate-500">© <span id="year"></span> All rights reserved.</p>
+      <div class="flex gap-3">
+        <a href="#top" class="hover:text-brand-500 transition">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Mobile menu
+    const mobileBtn = document.getElementById("mobileBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    mobileBtn?.addEventListener("click", () => mobileMenu.classList.toggle("hidden"));
+
+    // Theme (persisted)
+    const root = document.documentElement;
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") root.classList.add("dark");
+
+    function syncThemeIcons() {
+      const isDark = root.classList.contains("dark");
+      const icon = isDark ? "☀️" : "🌙";
+      const el1 = document.getElementById("themeIcon");
+      const el2 = document.getElementById("themeIconMobile");
+      if (el1) el1.textContent = icon;
+      if (el2) el2.textContent = icon;
+    }
+    syncThemeIcons();
+
+    function toggleTheme() {
+      root.classList.toggle("dark");
+      localStorage.setItem("theme", root.classList.contains("dark") ? "dark" : "light");
+      syncThemeIcons();
+    }
+    document.getElementById("themeToggle")?.addEventListener("click", toggleTheme);
+    document.getElementById("themeToggleMobile")?.addEventListener("click", toggleTheme);
+
+    // Filtering
+    const filterBtns = document.querySelectorAll(".filterBtn");
+    const projectCards = document.querySelectorAll(".projectCard");
+
+    function setActiveFilter(btn) {
+      filterBtns.forEach(b => b.classList.remove("bg-brand-500", "text-white", "border-brand-500"));
+      btn.classList.add("bg-brand-500", "text-white", "border-brand-500");
+    }
+    if (filterBtns[0]) setActiveFilter(filterBtns[0]);
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const filter = btn.dataset.filter;
+        setActiveFilter(btn);
+
+        projectCards.forEach(card => {
+          const cat = card.dataset.category;
+          const show = (filter === "all" || filter === cat);
+          card.classList.toggle("hidden", !show);
+        });
+      });
+    });
+
+    // Fullscreen gallery
+    const galleryModal = document.getElementById("galleryModal");
+    const gImg = document.getElementById("gImg");
+    const gTitle = document.getElementById("gTitle");
+    const gMeta = document.getElementById("gMeta");
+    const gThumbs = document.getElementById("gThumbs");
+
+    const gPrev = document.getElementById("gPrev");
+    const gNext = document.getElementById("gNext");
+    const gClose = document.getElementById("gClose");
+    const gZoomIn = document.getElementById("gZoomIn");
+    const gZoomOut = document.getElementById("gZoomOut");
+
+    let galleryImages = [];
+    let galleryIndex = 0;
+    let zoom = 1;
+
+    function setZoom(val) {
+      zoom = Math.min(3, Math.max(1, val));
+      gImg.style.transform = `scale(${zoom})`;
+    }
+
+    function renderThumbs() {
+      gThumbs.innerHTML = "";
+      galleryImages.forEach((src, i) => {
+        const btn = document.createElement("button");
+        btn.className =
+          "h-16 w-24 flex-none rounded-xl overflow-hidden border transition " +
+          (i === galleryIndex
+            ? "border-white/70"
+            : "border-white/20 hover:border-white/40");
+
+        btn.innerHTML = `<img src="${src}" alt="" class="h-full w-full object-cover">`;
+        btn.addEventListener("click", () => showAt(i));
+        gThumbs.appendChild(btn);
+      });
+    }
+
+    function showAt(i) {
+      galleryIndex = (i + galleryImages.length) % galleryImages.length;
+      gImg.src = galleryImages[galleryIndex];
+      setZoom(1);
+      renderThumbs();
+    }
+
+    function openGalleryFromCard(card) {
+      const title = card.dataset.title || "Project";
+      const cat = (card.dataset.category || "work").toUpperCase();
+
+      gTitle.textContent = title;
+      gMeta.textContent = cat;
+
+      galleryImages = (card.dataset.images || "")
+        .split(",")
+        .map(s => s.trim())
+        .filter(Boolean);
+
+      if (!galleryImages.length) {
+        const img = card.querySelector("img");
+        if (img?.getAttribute("src")) galleryImages = [img.getAttribute("src")];
+      }
+
+      galleryModal.classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+      showAt(0);
+    }
+
+    function closeGallery() {
+      galleryModal.classList.add("hidden");
+      document.body.style.overflow = "";
+      galleryImages = [];
+      galleryIndex = 0;
+      setZoom(1);
+    }
+
+    document.querySelectorAll(".projectCard button").forEach(btn => {
+      btn.addEventListener("click", () => openGalleryFromCard(btn.closest(".projectCard")));
+    });
+
+    gPrev.addEventListener("click", () => showAt(galleryIndex - 1));
+    gNext.addEventListener("click", () => showAt(galleryIndex + 1));
+    gClose.addEventListener("click", closeGallery);
+
+    galleryModal.addEventListener("click", (e) => {
+      if (e.target?.dataset?.gclose === "true") closeGallery();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (galleryModal.classList.contains("hidden")) return;
+
+      if (e.key === "Escape") closeGallery();
+      if (e.key === "ArrowLeft") showAt(galleryIndex - 1);
+      if (e.key === "ArrowRight") showAt(galleryIndex + 1);
+      if (e.key === "+" || e.key === "=") setZoom(zoom + 0.25);
+      if (e.key === "-") setZoom(zoom - 0.25);
+    });
+
+    gZoomIn.addEventListener("click", () => setZoom(zoom + 0.25));
+    gZoomOut.addEventListener("click", () => setZoom(zoom - 0.25));
+  </script>
+</body>
+</html>
+
