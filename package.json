@@ -1,0 +1,11 @@
+{
+  "name": "graphics-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "optimize-images": "node scripts/optimize-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.4"
+  }
+}
